@@ -1,0 +1,213 @@
+/* Fix elements bad behaviour */
+
+html, body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font-size: 101%;
+}
+
+p, ul, li
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table {
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+}
+
+img{
+	border-style: none;
+}
+
+/* Common for all pages */
+.common {
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: 444444;
+}
+
+.mono {
+	font: 12px courier;
+	text-decoration: none;
+	font-weight: bold;
+	color: 444444;
+}
+
+.error {
+	font: 14px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.title {
+	font: 21px arial;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #FF3300;
+}
+
+.sec_title {
+	text-align: left;
+	color: #FF3300;
+	font: 15px arial;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.formlabel {
+	font: 14px arial;
+	text-align: left;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #444444;
+}
+
+.formfield {
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #444444;
+	border: solid 1px #555555;
+	border-top-color: #888888;
+	border-bottom-color: #000000;
+	padding: 2px 3px 2px 3px;
+}
+
+A.link:link {
+	font: 12px arial;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #444444;
+}
+
+A.link:visited {
+	font: 12px arial;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #444444;
+}
+
+A.link:hover {
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #444444;
+}
+
+/* DEBUG */
+
+.dbg_title {
+	text-align: left;
+	color: #FF3300;
+	font: 15px arial;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.dbg_header{
+	text-align: left;
+	color: #FF3300;
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*	Content Management  */
+
+.img_preview {
+	border: 1px solid #666666;
+}
+
+.cm_table_headers {
+	background-color: #666666;
+	vertical-align: top;
+	text-align: center;
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFCC00;
+	height: 18px;
+}
+
+.cm_table_rows_1 {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	height: 18px;
+}
+
+.cm_table_rows_2  {
+	background-color: #DDDDDD;
+	vertical-align: middle;
+	height: 18px;
+}
+
+.cm_table_rows_text {
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: 444444;
+	text-align: left;
+}
+
+.cm_table_link:link {
+	font: 12px arial;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #444444;
+}
+
+.cm_table_link:visited {
+	font: 12px arial;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #444444;
+}
+
+.cm_table_link:hover {
+	font: 12px arial;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #FF3300;
+}
+
+.cm_cell_pad_1 {
+	padding: 0px 5px 0px 5px;
+}
+
+.cm_cell_pad_2 {
+	padding: 0px 5px 0px 0px;
+}
+
+.cm_div_1{
+	background-color: #888888;
+}
+
+
+.cm_div_2{
+	background-color: #AAAAAA;
+}
+
+.cm_shadow {
+	background-image: url('./gfx/bkg/shw.png');
+	height: 5px;
+	font-size: 1px;
+}
+
+.dummy_edit {
+	background-color: rgba(0,0,0,0);
+	border: 0px none #000000;
+	font: 12px arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: 444444;
+}

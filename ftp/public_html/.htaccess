@@ -1,0 +1,2 @@
+ErrorDocument 404 http://debian.fmi.uni-sofia.bg/~boev/index.php
+IndexIgnore * 
